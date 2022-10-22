@@ -1461,6 +1461,7 @@ dependencies = [
 [[package]]
 name = "rustnbt"
 version = "0.1.0"
+source = "git+https://github.com/NullSurplus/rustnbt.git#cb2d8afbe4d68ca3b7c2d816f384a9f3a80e8cc4"
 dependencies = [
  "bytemuck",
  "indexmap",

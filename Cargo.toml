@@ -12,7 +12,7 @@ rust-version = "1.60"
 egui = "0.19.0"
 eframe = { version = "0.19.0", features = ["persistence"] }
 serde = { version = "1", features = ["derive"] } # You only need this if you want app persistence
-rustnbt = { path = "../rustnbt", features = ["preserve_order"] }
+rustnbt = { git = "https://github.com/NullSurplus/rustnbt.git", features = ["preserve_order"] }
 rfd = "0.10.0"
 
 # native:
